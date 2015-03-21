@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation (http://xmlgraphics.apache.org/batik/)
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-SymbolicName: org.apache.batik.dom.svg
+Require-Bundle: org.apache.batik.css;bundle-version="[1.7.0,1.8.0)",
+ org.apache.batik.dom;bundle-version="[1.7.0,1.8.0)",
+ org.apache.batik.parser;bundle-version="[1.7.0,1.8.0)",
+ org.apache.batik.util;bundle-version="[1.7.0,1.8.0)",
+ org.apache.batik.ext.awt;bundle-version="[1.7.0,1.8.0)"
+Bundle-Version: 1.7.1.qualifier
+Export-Package: org.apache.batik.dom.anim;version="1.7.1",
+ org.apache.batik.dom.svg;version="1.7.1",
+ org.apache.batik.dom.svg.resources;version="1.7.1",
+ org.apache.batik.dom.svg12;version="1.7.1",
+ org.apache.batik.anim;version="1.7.1",
+ org.apache.batik.anim.timing;version="1.7.1",
+ org.apache.batik.anim.values;version="1.7.1"
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Implementation-Title: Batik SVG DOM implementation
+Import-Package: org.w3c.dom.svg;version="[1.1.0,1.3.0)",
+ org.w3c.dom.events;version="[3.0.0,4.0.0)",
+ org.w3c.css.sac;version="[1.3.0,1.4.0)";provenance=W3C,
+ org.w3c.dom.smil;version="[1.0.0,1.1.0)"
+Bundle-ManifestVersion: 2
